@@ -1,0 +1,116 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+ 
+ body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4a4444;
+    color: #0d1aaa;
+    line-height: 1.6;
+ } 
+ 
+ header { 
+    background: linear-gradient(135deg, #101820, #0d1aaa); 
+    color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 45px 20px; 
+} 
+    
+header h1 { 
+    font-size: 36px;
+    margin-bottom: 10px;
+ } 
+ 
+ header p { 
+    font-size: 18px;
+} 
+
+main {
+     width: 90%;
+     max-width: 1000px;
+     margin: 30px auto; 
+} 
+section { 
+    background-color: rgb(255, 255, 255); 
+    padding: 30px; margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+ }
+ 
+ h2 { 
+    color: #aa0d0d;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1769aa;
+    padding-bottom: 8px;
+ } 
+ 
+ h3 { 
+    color: #101820;
+    margin-bottom: 10px;
+ }
+ 
+ p { 
+    margin-bottom: 15px;
+    text-align: justify;
+ }
+.ejemplo { 
+    background-color: #eaf4ff; 
+    padding: 20px; margin-top: 20px; 
+    border-left: 5px solid #1769aa; 
+    border-radius: 5px; 
+} 
+
+ul {
+     margin-left: 25px;
+     } 
+     
+     li { 
+        margin-bottom: 7px;
+     } 
+     
+     table { 
+        width: 100%;
+        border-collapse: collapse; 
+        margin-top: 15px; 
+    }
+     th, td { 
+        border: 1px solid #ccc;
+        padding: 14px;
+        text-align: left;
+     }
+     th { 
+        background-color: #aa0d0d;
+        color: white;
+     }
+     
+     tr:nth-child(even) { 
+        background-color: #f2f6fa;
+     }
+      .conclusion {
+         border-top: 5px solid #1769aa;
+        } 
+        footer { 
+            background-color: #101820;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+         } 
+         
+         @media (max-width: 600px) { 
+            
+            header h1 { font-size: 28px;
+             } 
+             
+             main { 
+                width: 95%;
+             }
+              
+             section { 
+                padding: 20px;
+             }
+              table { 
+                font-size: 14px; 
+            }
+         }
